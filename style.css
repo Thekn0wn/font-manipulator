@@ -1,0 +1,36 @@
+.title {
+    background-color: lightseagreen;
+    border-radius: 20px;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+
+}
+
+.title:hover {
+    background-color: rgb(30, 173, 44);
+}
+
+.copy {
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    line-height: 3;
+    text-align: center;
+    text-shadow: 5px 5px 10px;
+}
+
+.copy:hover {
+    background: black;
+}
+
+::selection {
+    background-color: blueviolet;
+}
+
+canvas {
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+}
